@@ -13,3 +13,7 @@ These test cases are very much parameterized in feature file. In order to add mo
 The result report can be seen on "index.html" file in "build/CucumberReports" folder. User needs to open it in browser.
   
 Manual test cases are kept in resources folder.
+
+Run below command in order to clone it:
+
+git clone https://github.com/LokeshKSharma87/FxApiBddTests-test.git
