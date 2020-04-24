@@ -1,6 +1,6 @@
 # FxApiBddTest
 
-The BDD tests are created in Cucumber+REST Assured framework with some Lambda expression. 
+The BDD tests are created in Cucumber+REST Assured framework with some Lambda expressions. 
 
 In order to test the latest FX rates API response, "ApiToGetLatestData.feature" file is used.
 
