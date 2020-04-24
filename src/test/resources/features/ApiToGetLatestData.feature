@@ -26,3 +26,4 @@ Feature: Foreign currency exchange rates api with currency conversion
       | Negative - valid non-EUR base currency and two symbol-currency where the second is invalid                    | HUF             | TRY,ZZZ                       |
       | Negative - Non-Default base currency & 5 symbol currency where one of the currency is valid but doesn't exist in rate API currency list i.e. BDT | INR | KRW,JPY,PLN,ISK,BDT |
       | Negative Edge Case - Non-Default base currency & 32 symbol currencies where 32nd symbol currency is invalid   | ZAR             | MXN,ZAR,INR,THB,CNY,AUD,ILS,KRW,JPY,RUB,PLN,GBP,IDR,HUF,PHP,TRY,HKD,ISK,DKK,MYR,CAD,USD,BGN,NOK,RON,SGD,CZK,SEK,NZD,BRL,EUR,XXX |
+      | Negative Edge Case - Incorrect URL                                                                            | ABCDEFG         | ABCXYZPQ                      |
