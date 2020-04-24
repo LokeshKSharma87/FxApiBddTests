@@ -15,4 +15,5 @@ The result report can be seen on "index.html" file in "build/CucumberReports" fo
 Manual test cases are kept in resources folder.
 
 Run below command in order to clone it:
+
 git clone https://github.com/LokeshKSharma87/FxApiBddTests-test.git
